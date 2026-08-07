@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="삼성 인텔리전트 아이웨어 - 새로운 AI 경험의 시작">
+    <meta name="keywords" content="삼성, 아이웨어, AI 안경, 손자유, 생산성">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Samsung Intelligent Eyewear">
+    <meta property="og:description" content="삼성 인텔리전트 아이웨어 - 새로운 AI 경험의 시작">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="./images/og-image.png">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Samsung Intelligent Eyewear">
+    <meta name="twitter:description" content="삼성 인텔리전트 아이웨어 - 새로운 AI 경험의 시작">
+    <meta name="twitter:image" content="./images/og-image.png">
+    
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        "name": "Samsung Intelligent Eyewear",
+        "description": "삼성 인텔리전트 아이웨어 - 새로운 AI 경험의 시작",
+        "image": "./images/og-image.png",
+        "brand": {
+            "@type": "Brand",
+            "name": "Samsung"
+        }
+    }
+    </script>
+    
+    <title>Samsung Intelligent Eyewear - 새로운 AI 경험의 시작</title>
+    
+    <!-- Google Font -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Pretendard:wght@400;500;600;700&display=swap" as="style">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Pretendard:wght@400;500;600;700&display=swap">
+    <link rel="icon" href="./images/favicon/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="./images/favicon/favicon.png">
+    
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="header__container">
+            <div class="header__logo">
+                <a href="#" aria-label="Samsung Home">
+                    <img src="./images/logo/logo_img.png" alt="Samsung logo" width="120" height="40">
+                </a>
+            </div>
+            
+            <nav class="header__nav" role="navigation" aria-label="Main navigation">
+                <button class="header__menu-toggle" aria-label="Menu toggle" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                
+                <ul class="header__menu">
+                    <li><a href="#features" class="header__link">기능</a></li>
+                    <li><a href="#scenario" class="header__link">활용</a></li>
+                    <li><a href="#design" class="header__link">디자인</a></li>
+                    <li><a href="#specs" class="header__link">스펙</a></li>
+                    <li><a href="#faq" class="header__link">FAQ</a></li>
+                </ul>
+            </nav>
+            
+            <button class="header__cta-btn btn btn--primary" aria-label="출시 알림 신청">
+                알림 받기
+            </button>
+        </div>
+    </header>
+
+    <main role="main">
+        <!-- Hero Section -->
+        <section class="hero" id="hero" role="region" aria-label="Hero section">
+            <div class="hero__container">
+                <div class="hero__content">
+                    <h1 class="hero__title">Samsung Intelligent Eyewear</h1>
+                    <p class="hero__description">
+                        안경처럼 가볍게, AI처럼 똑똑하게.<br>
+                        쓰는 순간 달라지는 일상의 경험.                        
+                    </p>
+                    <button class="btn btn--primary btn--lg" aria-label="출시 알림 신청">
+                        출시 알림 받기
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features" id="features" role="region" aria-label="Features section">
+            <div class="features__container">
+                <h2 class="features__title">What Makes It Special</h2>
+                
+                <div class="features__grid">
+                    <article class="features__card card">
+                        <img class="features__image" src="./images/icons/feature-ai.svg" alt="손자유 AI" loading="lazy">
+                        <h3 class="features__card-title">Hands-Free AI</h3>
+                        <p class="features__card-desc">손을 사용하지 않아도 <br> AI가 당신의 요청을 이해하고 실행합니다.</p>
+                    </article>
+
+                    <article class="features__card card">
+                        <img class="features__image" src="./images/icons/feature-info.svg" alt="실시간 정보" loading="lazy">
+                        <h3 class="features__card-title">Everyday Wearable</h3>
+                        <p class="features__card-desc">일상생활에서 번역, 길찾기, 일정 관리 등을 AI가 도와드립니다.</p>
+                    </article>
+
+                    <article class="features__card card">
+                        <img class="features__image" src="./images/icons/feature-connect.svg" alt="연결된 경험" loading="lazy">
+                        <h3 class="features__card-title">AI Experience Extension</h3>
+                        <p class="features__card-desc">Galaxy 생태계와 완벽하게 연동되어 모든 기기에서 자연스럽게 이어지는 경험을 제공합니다.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Scenario Section -->
+        <section class="scenario" id="scenario" role="region" aria-label="Scenario section">
+            <div class="scenario__container">
+                <h2 class="scenario__title">How It Works</h2>
+                
+                <div class="scenario__grid">
+                    <article class="scenario__card card" tabindex="0" role="button" data-title="회의 지원" data-description="회의 내용을 실시간으로 정리하고 핵심 포인트를 자동으로 요약해드립니다. 팀원과의 소통을 더 자연스럽게 이어줍니다." data-image="./images/scenario/work.png">
+                        <img class="scenario__icon-image" src="./images/icons/scenario-work.svg" alt="회의 지원" loading="lazy">
+                        <h3>회의에서</h3>
+                        <p>회의 내용을 실시간으로 정리하고 <br> 요점을 강조해줍니다.</p>
+                    </article>
+
+                    <article class="scenario__card card" tabindex="0" role="button" data-title="실시간 번역" data-description="여행지에서 마주치는 언어 장벽을 바로 해소하고, 중요한 문구를 실시간으로 번역해드립니다." data-image="./images/scenario/translate.png">
+                        <img class="scenario__icon-image" src="./images/icons/scenario-translate.svg" alt="실시간 번역" loading="lazy">
+                        <h3>여행에서</h3>
+                        <p>여행지에서 자동으로 <br>현지 언어를 번역해줍니다.</p>
+                    </article>
+
+                    <article class="scenario__card card" tabindex="0" role="button" data-title="AI 비서" data-description="AI가 실시간으로 주변사람들과의 대화 내용을 인식하여 캘린더에 자동으로 일정을 추가합니다." data-image="./images/scenario/schedule.png">
+                        <img class="scenario__icon-image" src="./images/icons/scenario-schedule.svg" alt="AI 비서" loading="lazy">
+                        <h3>일상에서</h3>
+                        <p>AI가 대화 내용을 인식하여 <br>일정을 추가합니다.</p>
+                    </article>
+
+                    <article class="scenario__card card" tabindex="0" role="button" data-title="모니터링" data-description="운동 중에도 동작과 심박수를 실시간으로 등록되며, 사진과 동영상 촬영이 가능합니다." data-image="./images/scenario/fitness.png">
+                        <img class="scenario__icon-image" src="./images/icons/scenario-fitness.svg" alt="운동 추적" loading="lazy">
+                        <h3>운동에서</h3>
+                        <p>운동 데이터를 실시간으로 <br>모니터링 할 수 있습니다.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Design Gallery Section -->
+        <section class="design" id="design" role="region" aria-label="Design gallery">
+            <div class="design__container">
+                <h2 class="design__title">New Design</h2>
+                
+                <div class="design__carousel" aria-label="Design gallery carousel">
+                    <button class="design__nav design__nav--prev" type="button" aria-label="이전 디자인 보기">&#10094;</button>
+                    <div class="design__viewport">
+                        <div class="design__track">
+                            <article class="design__slide">
+                                <div class="design__image-wrapper">
+                                  <img class="design__image" src="./images/design/design1.jpg" alt="대담한 오발 안경" loading="lazy">
+<!--                                     <svg width="300" height="300" viewBox="0 0 300 300" fill="none">
+                                        <rect width="300" height="300" fill="#1C2333" rx="8"/>
+                                        <path d="M 85 120 Q 85 90 115 90 L 170 90 Q 200 90 200 120 L 200 165 Q 200 195 170 195 L 115 195 Q 85 195 85 165 Z" fill="#00C7FF" opacity="0.75"/>
+                                        <path d="M 210 120 Q 210 90 240 90 L 295 90 Q 325 90 325 120 L 325 165 Q 325 195 295 195 L 240 195 Q 210 195 210 165 Z" fill="#00C7FF" opacity="0.75"/>
+                                    </svg> -->
+                                </div>
+                                <div class="design__content">
+                                    <h3><span>GENTLE MONSTER</span><br>대담한 오발 안경</h3>
+                                    <p>가볍고 균형 잡힌 프레임이 자연스럽게 얼굴을 보완합니다.</p>
+                                </div>
+                            </article>
+
+                            <article class="design__slide">
+                                <div class="design__image-wrapper">
+                                  <img class="design__image" src="./images/design/design2.jpg" alt="대담한 오발 선글라스" loading="lazy">
+                                    <!-- <svg width="300" height="300" viewBox="0 0 300 300" fill="none">
+                                        <rect width="300" height="300" fill="#1C2333" rx="8"/>
+                                        <path d="M 105 115 L 205 115 L 220 148 L 205 182 L 105 182 L 90 148 Z" fill="#4B5FFF" opacity="0.75"/>
+                                        <circle cx="150" cy="148" r="38" fill="#00C7FF" opacity="0.25"/>
+                                    </svg> -->
+                                </div>
+                                <div class="design__content">
+                                    <h3><span>GENTLE MONSTER</span><br>대담한 오발 선글라스</h3>
+                                    <p>슬림한 프로필과 세련된 라인이 착용감까지 고려한 디자인입니다.</p>
+                                </div>
+                            </article>
+
+                            <article class="design__slide">
+                                <div class="design__image-wrapper">
+                                  <img class="design__image" src="./images/design/design3.jpg" alt="미니멀 뉴트로 선글라스" loading="lazy">
+                                    <!-- <svg width="300" height="300" viewBox="0 0 300 300" fill="none">
+                                        <rect width="300" height="300" fill="#1C2333" rx="8"/>
+                                        <path d="M 115 150 Q 115 105 150 95 L 180 95 Q 215 105 215 150 L 215 165 Q 215 210 180 220 L 150 220 Q 115 210 115 165 Z" fill="#1428A0" opacity="0.8"/>
+                                        <rect x="135" y="130" width="35" height="12" rx="6" fill="#00C7FF"/>
+                                    </svg> -->
+                                </div>
+                                <div class="design__content">
+                                    <h3><span>GENTLE MONSTER</span><br>미니멀 뉴트로 선글라스</h3>
+                                    <p>편안한 착용감의 미니멀한 형태로 설계됐습니다.</p>
+                                </div>
+                            </article>
+
+                            <article class="design__slide">
+                                <div class="design__image-wrapper">
+                                  <img class="design__image" src="./images/design/design4.jpg" alt="클래식 라운드 스퀘어 안경" loading="lazy">
+                                    <!-- <svg width="300" height="300" viewBox="0 0 300 300" fill="none">
+                                        <rect width="300" height="300" fill="#1C2333" rx="8"/>
+                                        <circle cx="150" cy="150" r="75" fill="#00C7FF" opacity="0.25"/>
+                                        <path d="M 100 150 Q 100 95 150 90 Q 200 95 200 150 Q 200 205 150 210 Q 100 205 100 150" stroke="#4B5FFF" stroke-width="10"/>
+                                    </svg> -->
+                                </div>
+                                <div class="design__content">
+                                    <h3><span>WARBY PARKER</span><br>클래식 라운드 스퀘어 안경</h3>
+                                    <p>선명한 곡선과 AI 센서가 안정적으로 배치돼 있습니다.</p>
+                                </div>
+                            </article>
+
+                            <article class="design__slide">
+                                <div class="design__image-wrapper">
+                                  <img class="design__image" src="./images/design/design5.jpg" alt="클래식 라운드 스퀘어 안경" loading="lazy">
+                                    <!-- <svg width="300" height="300" viewBox="0 0 300 300" fill="none">
+                                        <rect width="300" height="300" fill="#1C2333" rx="8"/>
+                                        <rect x="85" y="95" width="130" height="110" rx="28" fill="#00C7FF" opacity="0.25"/>
+                                        <ellipse cx="150" cy="150" rx="70" ry="50" fill="#4B5FFF" opacity="0.8"/>
+                                    </svg> -->
+                                </div>
+                                <div class="design__content">
+                                    <h3><span>WARBY PARKER</span><br>클래식 라운드 스퀘어 안경</h3>
+                                    <p>미니멀 한 디자인으로 기술과 패션을 동시에 강조합니다.</p>
+                                </div>
+                            </article>
+
+                            <article class="design__slide">
+                                <div class="design__image-wrapper">
+                                  <img class="design__image" src="./images/design/plus.png" alt="디테일" loading="lazy">
+                                    <!-- <svg width="300" height="300" viewBox="0 0 300 300" fill="none">
+                                        <rect width="300" height="300" fill="#1C2333" rx="8"/>
+                                        <path d="M 98 105 L 202 105 L 225 150 L 202 195 L 98 195 L 75 150 Z" fill="#1428A0" opacity="0.85"/>
+                                        <circle cx="150" cy="150" r="38" fill="#00C7FF" opacity="0.35"/>
+                                    </svg> -->
+                                </div>
+                                <div class="design__content">
+                                    <h3>디테일</h3>
+                                    <p>기능이 디테일하게 설계된 제품의 완성도 높은 마감입니다.</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <button class="design__nav design__nav--next" type="button" aria-label="다음 디자인 보기">&#10095;</button>
+                </div>
+                <div class="design__dots" role="tablist" aria-label="디자인 슬라이드 네비게이션"></div>
+            </div>
+        </section>
+
+        <!-- Specifications Section -->
+        <section class="specs" id="specs" role="region" aria-label="Product specifications">
+            <div class="specs__container">
+                <h2 class="specs__title">Product Specifications</h2>
+                
+                <div class="specs__table-wrapper">
+                    <table class="specs__table">
+                        <thead>
+                            <tr>
+                                <th scope="col">항목</th>
+                                <th scope="col">세부 정보</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">칩셋</th>
+                                <td>퀄컴 스냅드래곤 AR1 1세대, 삼성 · 구글 공동 개발 안드로이드 XR 기반</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">배터리</th>
+                                <td>1회 충전 최대 9시간, 케이스로 최대 7회 추가 충전</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">연동 AI</th>
+                                <td>구글 제미나이 연동 (스마트폰과 연동 방식, 독립 LLM 아님)</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">무게</th>
+                                <td>일반 안경에 가까운 실루엣, 0.1g 단위 무게 최적화 </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">지원기기</th>
+                                <td>갤럭시 스마트폰 중심 설계, <br> 규격 충족 시 타 안드로이드 · 아이폰도 지원 예정</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">출시</th>
+                                <td>2026년 내 출시 예정</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq" id="faq" role="region" aria-label="Frequently asked questions">
+            <div class="faq__container">
+                <h2 class="faq__title">Q&A</h2>
+                
+                <div class="faq__items">
+                    <div class="faq__item accordion">
+                        <button class="faq__header accordion__header" aria-expanded="false" aria-controls="faq-1">
+                            <span>배터리는 얼마나 오래 지속되나요?</span>
+                            <svg class="accordion__icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M6 8L10 12L14 8" stroke="#1428A0" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </button>
+                        <div class="faq__content accordion__content" id="faq-1" role="region">
+                            <p>일반적인 사용 환경에서 1회 충전 최대 9시간까지 배터리가 지속됩니다. 활용 패턴에 따라 차이가 있을 수 있습니다.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item accordion">
+                        <button class="faq__header accordion__header" aria-expanded="false" aria-controls="faq-2">
+                            <span>안경을 쓰고 있지 않으면 어떻게 사용하나요?</span>
+                            <svg class="accordion__icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M6 8L10 12L14 8" stroke="#1428A0" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </button>
+                        <div class="faq__content accordion__content" id="faq-2" role="region">
+                            <p>Galaxy 기기(스마트폰, 태블릿)와 연동되어 사용할 수 있으며, 음성 명령과 Galaxy Assistant를 통해 제어 가능합니다.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item accordion">
+                        <button class="faq__header accordion__header" aria-expanded="false" aria-controls="faq-3">
+                            <span>어떤 Galaxy 기기와 호환되나요?</span>
+                            <svg class="accordion__icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M6 8L10 12L14 8" stroke="#1428A0" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </button>
+                        <div class="faq__content accordion__content" id="faq-3" role="region">
+                            <p>모든 Galaxy 기기들과 호환됩니다.규격 충족 시 타 안드로이드 · 아이폰도 지원 예정입니다.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item accordion">
+                        <button class="faq__header accordion__header" aria-expanded="false" aria-controls="faq-4">
+                            <span>프라이버시와 보안은 어떻게 보장하나요?</span>
+                            <svg class="accordion__icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M6 8L10 12L14 8" stroke="#1428A0" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </button>
+                        <div class="faq__content accordion__content" id="faq-4" role="region">
+                            <p>영상을 촬영할 때는 외부의 LED불빛이 들어옵니다. 외부에서 이 불빛을 가릴시 작동되지 않습니다. <br>Samsung Knox 보안 플랫폼을 통해 엔드-투-엔드 암호화와 데이터 보호를 제공합니다. 개인정보는 기기 내에서만 처리되며 AI 모델 학습용으로 수집되거나 활용되지 않습니다.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item accordion">
+                        <button class="faq__header accordion__header" aria-expanded="false" aria-controls="faq-5">
+                            <span>시력 교정용 렌즈를 사용할 수 있나요?</span>
+                            <svg class="accordion__icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M6 8L10 12L14 8" stroke="#1428A0" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </button>
+                        <div class="faq__content accordion__content" id="faq-5" role="region">
+                            <p>렌즈에는 시각용 디스플레이가 탑재되어 있지 않아 처방 렌즈와의 교체가 가능할 것으로 예상됩니다. 자세한 내용은 출시 시 공개될 예정입니다.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item accordion">
+                        <button class="faq__header accordion__header" aria-expanded="false" aria-controls="faq-6">
+                            <span>가격은 얼마인가요?</span>
+                            <svg class="accordion__icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M6 8L10 12L14 8" stroke="#1428A0" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </button>
+                        <div class="faq__content accordion__content" id="faq-6" role="region">
+                            <p>공식 출시 시 가격을 공개할 예정입니다. 출시 알림을 신청하여 최신 정보를 받으실 수 있습니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta" id="cta" role="region" aria-label="Call to action">
+            <div class="cta__container">
+                <h2 class="cta__title">출시 알림을 신청하세요</h2>
+                <p class="cta__description">
+                    Samsung Intelligent Eyewear의 출시 소식을 가장 먼저 받으실 수 있습니다.
+                </p>
+                
+                <form class="cta__form" id="cta-form" role="form" aria-label="Newsletter signup">
+                    <div class="cta__input-group">
+                        <input 
+                            type="number" 
+                            class="cta__input" 
+                            placeholder="-을 제외한 전화번호를 입력해주세요"
+                            required
+                            aria-label="Phone number"
+                        >
+                        <button type="submit" class="btn btn--primary btn--lg" aria-label="출시 알림 신청하기">
+                            알림 받기
+                        </button>
+                    </div>
+                    <p class="cta__privacy">개인정보 보호정책에 동의합니다.</p>
+                    <div class="cta__message" role="status" aria-live="polite"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <div class="scenario-modal" id="scenarioModal" aria-hidden="true">
+        <div class="scenario-modal__backdrop" data-close="true"></div>
+        <div class="scenario-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="scenarioModalTitle">
+            <button class="scenario-modal__close" type="button" aria-label="닫기">&times;</button>
+            <div class="scenario-modal__media">
+                <img class="scenario-modal__image" src="" alt="">
+            </div>
+            <div class="scenario-modal__content">
+                <h3 class="scenario-modal__title" id="scenarioModalTitle"></h3>
+                <p class="scenario-modal__description"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="footer__container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3 class="footer__title">회사</h3>
+                    <ul class="footer__links">
+                        <li><a href="#" class="footer__link">소개</a></li>
+                        <li><a href="#" class="footer__link">뉴스</a></li>
+                        <li><a href="#" class="footer__link">채용</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__section">
+                    <h3 class="footer__title">지원</h3>
+                    <ul class="footer__links">
+                        <li><a href="#" class="footer__link">도움말</a></li>
+                        <li><a href="#" class="footer__link">문의</a></li>
+                        <li><a href="#" class="footer__link">커뮤니티</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__section">
+                    <h3 class="footer__title">법적</h3>
+                    <ul class="footer__links">
+                        <li><a href="#" class="footer__link">개인정보보호정책</a></li>
+                        <li><a href="#" class="footer__link">이용약관</a></li>
+                        <li><a href="#" class="footer__link">쿠키 설정</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__section">
+                    <h3 class="footer__title">소셜</h3>
+                    <div class="footer__socials">
+                        <a href="#" class="footer__social" aria-label="Facebook">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="footer__social" aria-label="Twitter">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23.953 4.57a10 10 0 002.856-3.513 10 10 0 01-2.836.776 4.958 4.958 0 002.165-2.724c-.951.564-2.005.974-3.127 1.195a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="footer__social" aria-label="Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p class="footer__copyright">© 2024 Samsung. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/script.js" defer></script>
+</body>
+</html>
